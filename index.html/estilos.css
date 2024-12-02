@@ -1,0 +1,106 @@
+
+body {
+    background-color: black; 
+    color: white; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: #111; 
+}
+
+
+.menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 20px; 
+    color: white; 
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold; 
+}
+
+
+.menu a:hover {
+    text-decoration: underline; 
+    color: gray; 
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+
+main img {
+    display: block;
+    margin: 10px auto; 
+    max-width: 90%;
+    height: auto; 
+    border: 2px solid white; 
+    border-radius: 10px; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #111; 
+    color: white;
+    margin-top: auto; 
+}
+
+
+footer .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d0cedd; 
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+footer .button:hover {
+    background-color: #00a2ff;
+}
+
+#quienes-somos h2,
+#quienes-somos p,
+#seccion1 h1 {
+    margin: 10px 0; 
+    line-height: 1.6; 
+}
+
+#quienes-somos p a {
+    color: #00a2ff; 
+    text-decoration: none;
+}
+
+#quienes-somos p a:hover {
+    text-decoration: underline;
+    color: #d0cedd; 
+}

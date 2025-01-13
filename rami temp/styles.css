@@ -1,0 +1,132 @@
+body {
+    background-color: #0c0c0c !important;
+    color: white !important;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* navbar */
+.img-logo {
+    width: 55px;
+}
+
+nav.custom-navbar {
+    margin-bottom: 3rem;
+    border-bottom: 3px solid rgb(225, 225, 225);
+    background-image: url(img/bg-body.jpg);
+}
+
+.text-nav {
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.text-nav:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    color: rgb(212, 212, 212) !important;
+}
+
+li.nav-item {
+    padding-left: 10px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* Menu */
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+main {
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main img {
+    width: 90%; 
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* title */
+
+#title {
+    margin-bottom: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+footer.custom-footer {
+    background-image: ;
+    padding: 2rem !important;
+    background-image: url(img/bg-body.jpg);
+}
+
+.custom-btn {
+    border: 1px solid rgb(255, 255, 255) !important;
+    display: inline-block;
+    padding: 5px 5px !important;
+    background-color: #d0cedd !important;
+    color: #000 !important;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px !important;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: all .3s ease;
+}
+
+.custom-btn:hover {
+    box-shadow: 0px 0px 8px white;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+/* sobre nosotros */
+
+#quienes-somos h2, #quienes-somos p, #seccion1 h1 {
+    margin: 10px 0;
+    line-height: 1.6;   
+}
+
+/* contact */ 
+
+#quienes-somos #title-contact {
+    justify-content: center;
+    margin: 50px;
+}
+
+#quienes-somos p {
+    font-size: 18px;
+}
